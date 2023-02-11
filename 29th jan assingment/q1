@@ -1,0 +1,169 @@
+Q.1.who developed python programing language?
+Ans.1.
+Python programming language was created by Guido van Rossum in the late 1980s and first released in 1991.
+
+Q.2.which type of python programming does python support?
+Ans.2.
+Python supports several programming paradigms, including procedural, object-oriented, and functional programming. It also has support for aspect-oriented programming, meta-programming, and concurrent programming through its extensive standard library and third-party packages.
+
+Q.3.is python case sensitive when dealing with identifiers?
+Ans.3.
+Yes, Python is case sensitive when dealing with identifiers. This means that variables, functions, and other identifiers in Python are distinguished by their case, so "my_variable" and "My_Variable" are considered different identifiers. It is important to be consistent in your use of capitalization when naming variables and functions in your Python code.
+
+Q.4.what is the correct extension of the python file?
+Ans.4.
+The correct extension for a Python file is ".py". When you save a Python program in a text editor or an integrated development environment (IDE), you should use a file name with the ".py" extension. This helps to identify the file as a Python script and allows your operating system to recognize it as executable by the Python interpreter. For example, if you have a Python program named "my_program.py", you can run it from the command line by typing "python my_program.py".
+
+Q.5.is python code compiled or interpreted
+Ans.5.
+Python code is interpreted, which means that the Python interpreter reads and executes the code directly, without compiling it into machine code beforehand. When you run a Python script, the interpreter reads each line of the code and executes it in real-time. This makes Python a highly flexible and dynamic language, but it can also make it slower than compiled languages for certain types of tasks. However, there are tools available that can compile Python code into bytecode or executable files for improved performance.
+
+Q.6.Name a few blocks of code used to define in python language
+Ans.6.
+In Python, a block of code is a section of code that is executed as a unit. Blocks are defined by their indentation level, and are used to group statements together. Some examples of blocks of code in Python include:
+
+1.Function blocks - these define a section of code that performs a specific task and can be called from other parts of the program.
+
+2.Conditional blocks - these define a section of code that is executed only if a certain condition is true.
+
+3.Loop blocks - these define a section of code that is executed repeatedly until a certain condition is met.
+
+4.Class blocks - these define a blueprint for creating objects with specific attributes and methods.
+
+5.With blocks - these define a section of code that is executed while a certain resource is being used, and automatically releases the resource when the block is exited.
+
+These blocks of code are essential for organizing and structuring complex programs in Python.
+
+Q.7.State a character used to give single line comments in python?
+Ans.7.
+In Python, the hash symbol (#) is used to indicate a single-line comment. Any text on the same line after the hash symbol is ignored by the Python interpreter. 
+For example:
+# This is a comment in Python
+print("Hello, world!")  # This is another comment
+
+In this code snippet, the first line is a comment, and the second line prints the string "Hello, world!" to the console. The third line is also a comment, but it is attached to the same line of code as the print statement.
+
+Q.8.Mention function which can help us to find the version of python that we are currently working on?
+Ans.8.
+The sys module in Python provides a function called version that can be used to find the version of Python that you are currently working with. To use this function, you first need to import the sys module, and then call the version function. Here's an 
+example:
+import sys
+
+print(sys.version)
+
+This will output the version of Python that you are using, including details about the operating system and build information. 
+For example:
+3.9.2 (default, Feb 20 2021, 00:00:00)
+[GCC 7.3.0]
+
+
+Q.9.python supports the creation of anonymous function at runtime using a construct called
+Ans.9.
+Python supports the creation of anonymous functions at runtime using a construct called "lambda" functions. Lambda functions are small, anonymous functions that can be defined on the fly, without the need for a formal function definition. They are typically used in situations where a small, throwaway function is needed, such as for filtering or mapping data.
+
+Here's an example of a lambda function that squares its input:
+square = lambda x: x**2
+
+This lambda function takes a single argument, x, and returns its square. The function can be called like any other function:
+result = square(5)
+print(result)  # Output: 25
+
+Lambda functions are often used in combination with built-in functions such as map, filter, and reduce, which accept functions as arguments. Here's an example of using a lambda function with map to compute the squares of a list of numbers:
+numbers = [1, 2, 3, 4, 5]
+squares = map(lambda x: x**2, numbers)
+print(list(squares))  # Output: [1, 4, 9, 16, 25]
+
+Q.10.what does pip stand for python?
+Ans.10.
+In Python, "pip" stands for "Pip Installs Packages" (although the name "pip" itself is not an acronym). Pip is a package manager for Python that is used to install and manage third-party libraries and packages. With pip, you can easily install packages from the Python Package Index (PyPI), as well as from other sources such as GitHub or other version control systems. Pip is included with most Python installations, and can be used from the command line by typing "pip" followed by a command, such as "install" or "uninstall".
+
+Q.11.Mention a few built in function in python?
+Ans.11.
+Python comes with a large number of built-in functions that can be used for a wide range of purposes. Here are a few examples:
+
+print() - used to display output on the console.
+len() - used to find the length of a sequence or collection.
+input() - used to prompt the user for input from the console.
+range() - used to generate a sequence of numbers.
+type() - used to get the data type of a value or variable.
+int(), float(), str() - used to convert a value to a specific data type.
+abs() - used to get the absolute value of a number.
+min() and max() - used to find the smallest or largest value in a sequence.
+sum() - used to find the sum of values in a sequence.
+round() - used to round a floating-point number to a specified number of decimal places.
+These are just a few examples of the many built-in functions that are available in Python. They are designed to be highly versatile and to work with a wide range of data types and structures.
+
+Q.12.what is the maximum possible length of an identifier in python
+Ans.12.
+In Python, the maximum length of an identifier (i.e., the name of a variable, function, or other object) is not specified by the language itself. However, the practical limit is determined by the system resources and the limitations of the programming environment.
+
+According to the Python documentation, the recommended maximum length for identifiers is 79 characters. This is based on the fact that most editors and tools used for Python programming will display up to 79 characters per line, so longer identifiers may not be easily readable or editable.
+
+In practice, most identifiers in Python are much shorter than 79 characters, and it is rare to encounter identifiers that are longer than a few dozen characters. However, as long as the identifier is within the practical limit of the programming environment, it is technically possible to use an identifier of any length.
+
+Q.13.what are the benefits of using python 
+Ans.13.
+There are many benefits to using Python for software development, including:
+
+Easy to learn and use: Python has a simple and consistent syntax, which makes it easy to read and write. This makes it an excellent language for beginners and experienced developers alike.
+
+Large standard library: Python comes with a large standard library that provides a wide range of functionality, from string processing and networking to scientific computing and web development. This means that you can accomplish a lot with just the core language, without having to rely on external libraries.
+
+Cross-platform compatibility: Python is available on a wide range of platforms, including Windows, macOS, and Linux, which makes it easy to write code that can run on multiple operating systems without modification.
+
+Support for multiple programming paradigms: Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming, which makes it a flexible language that can be used in a variety of contexts.
+
+Strong community support: Python has a large and active community of developers who contribute to the language and its ecosystem of libraries and tools. This means that there is a wealth of resources available to help you learn and use the language effectively.
+
+High-level language: Python is a high-level language, which means that it abstracts away many low-level details of computer systems. This allows developers to focus on solving problems and building applications, rather than worrying about low-level implementation details.
+
+Excellent for data analysis and machine learning: Python has a strong ecosystem of libraries and tools for data analysis and machine learning, including NumPy, Pandas, Matplotlib, and scikit-learn. This makes it a popular language for data scientists and researchers.
+
+These are just a few of the many benefits of using Python for software development. Overall, Python is a versatile and powerful language that can be used for a wide range of applications, from web development and data analysis to scientific computing and machine learning.
+
+Q.14.How is memory managed in python
+Ans.14.
+In Python, memory management is handled automatically by the language's built-in memory manager. The memory manager uses a combination of reference counting and a cyclic garbage collector to manage the allocation and deallocation of memory.
+
+Reference counting works by keeping track of the number of references to an object. Every time a new reference is created to an object, the reference count is incremented. When a reference is deleted, the reference count is decremented. When the reference count reaches zero, the object is no longer accessible and its memory is automatically deallocated.
+
+The cyclic garbage collector is used to deallocate objects that cannot be freed by reference counting alone, such as objects that reference each other in a circular manner. The garbage collector periodically scans the memory to identify objects that are no longer accessible and frees their memory.
+
+Python's memory management system is designed to be efficient and transparent to the developer. Developers do not need to explicitly allocate or deallocate memory, and there is no need to worry about memory leaks or dangling pointers. However, it is still important to be mindful of memory usage and to avoid creating unnecessary objects or keeping references to objects that are no longer needed, as this can impact performance and memory usage.
+
+Q.15.how to install python on window and set path variable?
+Ans.15.
+To install Python on Windows and set the path variable, follow these steps:
+
+Download the latest version of Python from the official website at https://www.python.org/downloads/windows/.
+
+Run the installer and follow the prompts to install Python.
+
+During the installation process, you will be prompted to choose whether to add Python to the system PATH. Choose "Add Python 3.x to PATH" and click "Install Now."
+
+Once the installation is complete, open the Command Prompt by pressing the Windows key + R, typing "cmd" in the Run dialog box, and clicking "OK."
+
+Type "python" in the command prompt and press Enter. If Python is installed and the PATH variable is set correctly, you should see the Python interpreter start up.
+
+If you get an error message that Python is not recognized as a command, you may need to manually add the Python installation directory to the PATH variable. To do this, open the Control Panel and go to System > Advanced system settings > Environment Variables.
+
+Under "System Variables," find the "Path" variable and click "Edit."
+
+Click "New" and enter the path to the Python installation directory (e.g., "C:\Python39"). Click "OK" to save the changes.
+
+Close and reopen the Command Prompt, then type "python" again to verify that Python is installed and the PATH variable is set correctly.
+
+That's it! You should now have Python installed and the PATH variable set correctly on your Windows system.
+
+Q.16.is indentation required in python
+Ans.16.
+Yes, indentation is required in Python. Python uses whitespace (tabs or spaces) to indicate the grouping of code blocks. This means that the amount of whitespace used to indent lines of code determines the scope and nesting of statements.
+
+For example, here's how a simple if statement would be structured in Python:
+if x > 0:
+    print("x is positive")
+else:
+    print("x is zero or negative")
+In this example, the two print statements are indented to show that they are part of the if and else blocks, respectively. If the indentation is not used correctly, you will get an error.
+
+It's important to note that Python does not use curly braces ({}) or other explicit markers to delimit code blocks like some other programming languages do. Instead, Python relies on indentation to create a clear and readable structure for the code.
