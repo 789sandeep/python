@@ -1,0 +1,3 @@
+# Q1. What is Statistics?
+# ANS.1.
+# Statistics is a branch of mathematics that deals with the collection, analysis, interpretation, presentation, and organization of data. It involves the use of mathematical and computational methods to draw conclusions from data, and to make predictions and decisions based on those conclusions. Statistics is used in a wide range of fields, including science, business, engineering, medicine, social sciences, and many others
