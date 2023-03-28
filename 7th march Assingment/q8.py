@@ -1,0 +1,9 @@
+# Q8. What do you understand about skewness in data?
+
+# Skewness in data refers to the degree of asymmetry in the distribution of values in a dataset. It measures the extent to which the data is skewed or distorted from a symmetric distribution. A symmetric distribution has an equal number of values on both sides of the mean or median, while an asymmetric distribution has more values on one side than the other.
+
+# There are two types of skewness: positive skewness and negative skewness. Positive skewness means that the tail of the distribution is longer on the positive side, or the right side of the distribution, and the majority of the data is concentrated on the left side of the distribution. Negative skewness means that the tail of the distribution is longer on the negative side, or the left side of the distribution, and the majority of the data is concentrated on the right side of the distribution.
+
+# Skewness can be measured using statistical measures such as the skewness coefficient or the moment coefficient of skewness. The skewness coefficient is a measure of the degree and direction of skewness and is calculated as the third standardized moment of the distribution divided by the cube of the standard deviation. A positive skewness coefficient indicates positive skewness, while a negative skewness coefficient indicates negative skewness.
+
+# Skewness can have a significant impact on statistical analysis and modeling. Skewed data can affect the accuracy of the mean and other central tendency measures, and can also affect the validity of some statistical tests and models that assume normal distribution. Therefore, it is important to detect and correct for skewness in data before performing any analysis or modeling.

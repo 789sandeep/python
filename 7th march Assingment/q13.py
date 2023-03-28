@@ -1,0 +1,11 @@
+# Q13. How is covariance different from correlation?
+
+# Covariance and correlation are both measures of the relationship between two variables, but they differ in their interpretation and scale.
+
+# Covariance is a measure of how two variables vary together. It measures the degree to which two variables are linearly related to each other. Specifically, covariance measures the average product of deviations from the mean of two variables. If two variables have a positive covariance, it means that they tend to vary together in the same direction (i.e., as one variable increases, the other variable tends to increase as well). If two variables have a negative covariance, it means that they tend to vary together in opposite directions (i.e., as one variable increases, the other variable tends to decrease).
+
+# Correlation, on the other hand, is a standardized measure of the relationship between two variables. It measures the strength and direction of the linear relationship between two variables, regardless of their scale. Specifically, correlation measures how closely two variables are related to each other on a scale from -1 to 1, with 1 indicating a perfect positive correlation, -1 indicating a perfect negative correlation, and 0 indicating no correlation.
+
+# One of the main differences between covariance and correlation is that covariance values are not standardized and depend on the scale of the variables, while correlation values are standardized and do not depend on the scale of the variables. This makes correlation a more useful measure of the strength of the relationship between two variables, as it allows for easier comparisons across different datasets and variables.
+
+# Another difference is that covariance can take on any value, positive or negative, while correlation values are bounded between -1 and 1. This means that covariance can be harder to interpret than correlation, as it does not provide a clear indication of the strength or direction of the relationship between two variables.
